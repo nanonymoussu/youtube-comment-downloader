@@ -1,0 +1,5 @@
+google-api-python-client
+tqdm
+pandas
+openpyxl
+python-dotenv
