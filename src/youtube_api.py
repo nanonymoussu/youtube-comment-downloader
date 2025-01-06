@@ -63,7 +63,7 @@ def fetch_comments(video_id: str) -> List[Dict[str, Any]]:
                 snippet: Any = item["snippet"]["topLevelComment"]["snippet"]
                 comments.append(
                     {
-                        # "_no_": len(comments) + 1,
+                        "_no_": len(comments) + 1,
                         "user": snippet["authorDisplayName"],
                         "text": snippet["textOriginal"],
                         "date": snippet["updatedAt"],
