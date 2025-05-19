@@ -23,7 +23,7 @@ python-dotenv==1.0.1
 pytz==2024.2
 requests==2.32.3
 rsa==4.9
-setuptools==75.7.0
+setuptools==78.1.1
 six==1.17.0
 tqdm==4.67.1
 tzdata==2024.2
